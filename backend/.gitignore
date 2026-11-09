@@ -1,0 +1,19 @@
+target/
+*.class
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+
+# OS
+.DS_Store
+
+# Env files (never commit secrets such as R2 credentials)
+.env
+.env.*
+application-local.yml
+application-local.properties
